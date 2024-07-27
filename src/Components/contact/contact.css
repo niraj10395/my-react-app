@@ -1,0 +1,53 @@
+css
+/* Contact.css */
+
+/* Container for the entire contact form */
+.contact-container {
+  width: 500px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Heading for the contact form */
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Individual form groups (label and input) */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Labels for input fields */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+.form-group input,
+.form-group textarea { /* If you add a textarea later */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+/* Submit button */
+.contact-container button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.contact-container button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green */
+}
